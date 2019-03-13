@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/background.jpg') repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    overflow: auto;
+    color: #777;
+    font-size: 24px;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    border-bottom: 3px solid #ccc;
+    margin-top: -8px;
+    margin-bottom: 30px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: teal;
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+}
+
+nav {
+    width: 306px;
+    float: right;
+    margin-top: 34px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    font-size: 16px;
+    padding: 0px 15px;
+    border-right: 2px solid #666666;
+    text-decoration: none;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+    padding-right: none;
+}
+
+p {
+    font-size: 19px;
+    line-height: 44px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 440px;
+}
+
+form button {
+    background: teal;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: none;
+}
+
+footer {
+    background: #666666;
+    border-top: 7px solid teal;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 180px;
+    margin-bottom: -2px;
+    margin-left: -499px;
+    margin-right: -499px;
+}
+
+.footer {
+    background: #666666;
+    border-top: 7px solid teal;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    margin-left: -40px;
+    margin-right: -7px;
+}
+
+.nameBox {
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: -22px;
+}
+
+.inline-img {
+    float: left;
+    margin: 65px 15px 15px 0;
+    border: 1px solid #777;
+}
+
+.portfolio-item {
+    position: relative;
+    margin-bottom: 20px;
+    width: 35%;
+    float: left;
+    height: 200px;
+    margin-left: 67px;
+    margin-right: 68px;
+    margin-block-start: 40px;
+}
+
+.portfolio-item h4 {
+    background: teal;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: absolute;
+    bottom:-25px
+}
+
+.portfolio-item:nth-of-type(even) {
+    float: right;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+    margin-bottom: 75px;
+}
+
+.p2, .p3 {
+    font-size: 19px;
+    line-height: 15px;
+    margin-bottom: 0px;
+    margin-top: 37px;
+}
+
+#left-column, #right-column {
+    background: white;
+    padding: 25px;
+    border: 2px solid #ccc;
+}
+
+#left-column {
+    width: 960px;
+    height: 892px;
+    float: left;
+}
+
+#left-column h2 {
+    font-size: 24px;
+    padding: 15px 0;
+    margin-bottom: -35px;
+    border-bottom: 2px solid #ccc;
+}
+
+#right-column {
+    width: 270px;
+    float: right;
+}
+
+#right-column h3 {
+    font-size: 20px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+#right-column ul {
+    text-align: center;
+}
+
+#right-column ul li {
+    display: inline-block;
+}
+
+#right-column ul li img {
+    width: 60px;
+}
+
+#port1 {
+    background: url('../images/abstract.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+#port2 {
+    background: url('../images/abstract2.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+#port3 {
+    background: url('../images/nightlife.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+#port4 {
+    background: url('../images/city.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+#port5 {
+    background: url('../images/technics.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
